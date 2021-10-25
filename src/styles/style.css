@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.logo-text{
+    @apply text-3xl text-gradio-red;
+    letter-spacing: 0.45em;
+}
+
+.top-nav-link{
+    @apply px-2 font-extralight text-base;
+    letter-spacing: 0.45em;
+}
+
+#navMenu.active{
+    left: 0;
+}
+
+#burgerToggle.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+
+#burgerToggle.active .bar:nth-child(2){
+    opacity: 0;
+}
+
+#burgerToggle.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
