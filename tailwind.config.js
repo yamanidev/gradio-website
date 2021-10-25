@@ -6,7 +6,14 @@ module.exports = {
     },
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                "gradio-red": "#C0022F"
+            },
+            fontFamily: {
+                "poppins": "Poppins, sans-serif"
+            }
+        },
     },
     variants: {
         extend: {},
