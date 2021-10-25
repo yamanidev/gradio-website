@@ -1,0 +1,26 @@
+{
+  "name": "gradio-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "postcss src/styles/style.css -o public/styles/style.css --watch --verbose",
+    "prod": "NODE_ENV=production tailwindcss -i src/styles/style.css -o public/styles/style.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamanidev/gradio-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yamanidev/gradio-website/issues"
+  },
+  "homepage": "https://github.com/yamanidev/gradio-website#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss-cli": "^9.0.1",
+    "tailwindcss": "^2.2.17"
+  }
+}
