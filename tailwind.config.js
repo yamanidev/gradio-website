@@ -9,16 +9,16 @@ module.exports = {
         screens: {
             "2xl": { "max": "1516px" },
             xl: { "max": "1260px" },
-            lg: { "max": "1004px" },
-            md: { "max": "748px" },
-            sm: { "max": "630px" }
+            lg: { "max": "1100px" },
+            md: { "max": "900px" },
+            sm: { "max": "800px" }
         },
         container: {
 
             screens: {
-                sm: '620px',
-                md: '748px',
-                lg: '1004px',
+                sm: '800px',
+                md: '900px',
+                lg: '1100px',
                 xl: '1260px',
                 '2xl': '1516px'
             }
