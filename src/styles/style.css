@@ -27,3 +27,35 @@
 #burgerToggle.active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
 }
+
+.subtle-background{
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 20rem;
+    background-color: #fcf2f4;
+}
+
+.subtle-background::before{
+    content: "";
+    height: 55%;
+    position: absolute;
+    z-index: -1;
+    top: -7rem;
+    left: 0;
+    right: 0;
+    transform: skewY(-7deg);
+    background-color: #fcf2f4;
+}
+
+.rotate-text{
+    writing-mode: vertical-rl;
+}
+
+@media screen and (max-width: 800px){
+    .rotate-text{
+        writing-mode: horizontal-tb;
+    }
+}
