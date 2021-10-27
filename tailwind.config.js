@@ -14,7 +14,7 @@ module.exports = {
             sm: { "max": "800px" }
         },
         container: {
-
+            center: true,
             screens: {
                 sm: '800px',
                 md: '900px',
