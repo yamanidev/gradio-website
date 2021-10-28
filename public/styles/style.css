@@ -876,6 +876,10 @@ video {
 		position: fixed;
 	}
 
+	.sm\:absolute {
+		position: absolute;
+	}
+
 	.sm\:top-\[4\.9rem\] {
 		top: 4.9rem;
 	}
