@@ -855,6 +855,19 @@ video {
             writing-mode: horizontal-tb;
     }
 }
+
+.gradio-selection::-moz-selection {
+	--tw-bg-opacity: 1;
+	background-color: rgba(192, 2, 47, var(--tw-bg-opacity));
+    color: #fcf2f4;
+}
+
+.gradio-selection::selection {
+	--tw-bg-opacity: 1;
+	background-color: rgba(192, 2, 47, var(--tw-bg-opacity));
+    color: #fcf2f4;
+}
+
 @media (max-width: 1260px) {
 
 	.xl\:right-0 {
@@ -890,6 +903,7 @@ video {
 		padding-bottom: 0.5rem;
 	}
 }
+
 @media (max-width: 900px) {
 
 	.md\:max-w-lg {
@@ -909,6 +923,7 @@ video {
 		padding-right: 1rem;
 	}
 }
+
 @media (max-width: 800px) {
 
 	.sm\:absolute {

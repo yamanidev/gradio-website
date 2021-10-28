@@ -65,3 +65,8 @@
         writing-mode: horizontal-tb;
     }
 }
+
+.gradio-selection::selection{
+    @apply bg-gradio-red;
+    color: #fcf2f4;
+}
