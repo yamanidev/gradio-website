@@ -643,6 +643,9 @@ video {
 .mt-10 {
 	margin-top: 2.5rem;
 }
+.mt-4 {
+	margin-top: 1rem;
+}
 .inline-block {
 	display: inline-block;
 }
@@ -658,6 +661,9 @@ video {
 .h-auto {
 	height: auto;
 }
+.h-24 {
+	height: 6rem;
+}
 .w-3\/4 {
 	width: 75%;
 }
@@ -672,6 +678,9 @@ video {
 }
 .w-80 {
 	width: 20rem;
+}
+.w-40 {
+	width: 10rem;
 }
 .max-w-3xl {
 	max-width: 48rem;
@@ -689,6 +698,12 @@ video {
 }
 .cursor-pointer {
 	cursor: pointer;
+}
+.flex-col {
+	flex-direction: column;
+}
+.flex-wrap {
+	flex-wrap: wrap;
 }
 .items-center {
 	align-items: center;
@@ -711,9 +726,16 @@ video {
 .border-2 {
 	border-width: 2px;
 }
+.border {
+	border-width: 1px;
+}
 .border-gradio-red {
 	--tw-border-opacity: 1;
 	border-color: rgba(192, 2, 47, var(--tw-border-opacity));
+}
+.border-yellow-900 {
+	--tw-border-opacity: 1;
+	border-color: rgba(120, 53, 15, var(--tw-border-opacity));
 }
 .bg-gradio-red {
 	--tw-bg-opacity: 1;
@@ -733,6 +755,9 @@ video {
 .pb-2 {
 	padding-bottom: 0.5rem;
 }
+.pt-28 {
+	padding-top: 7rem;
+}
 .text-center {
 	text-align: center;
 }
@@ -746,6 +771,10 @@ video {
 .text-2xl {
 	font-size: 1.5rem;
 	line-height: 2rem;
+}
+.text-xl {
+	font-size: 1.25rem;
+	line-height: 1.75rem;
 }
 .font-extralight {
 	font-weight: 200;
@@ -837,6 +866,29 @@ video {
     position: absolute;
     z-index: -1;
     top: -7rem;
+    left: 0;
+    right: 0;
+    transform: skewY(-7deg);
+    background-color: #fcf2f4;
+}
+
+.subtle-background-inverted{
+    height: 100%;
+    max-height: 300px;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    background-color: #fcf2f4;
+}
+
+.subtle-background-inverted::after{
+    content: "";
+    height: 100%;
+    max-height: 300px;
+    position: absolute;
+    z-index: -1;
+    top: 10rem;
     left: 0;
     right: 0;
     transform: skewY(-7deg);
@@ -968,6 +1020,15 @@ video {
 
 	.sm\:justify-around {
 		justify-content: space-around;
+	}
+
+	.sm\:gap-x-8 {
+		-moz-column-gap: 2rem;
+		     column-gap: 2rem;
+	}
+
+	.sm\:gap-y-14 {
+		row-gap: 3.5rem;
 	}
 
 	.sm\:bg-\[\#C0022F0D\] {

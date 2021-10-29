@@ -55,6 +55,29 @@
     background-color: #fcf2f4;
 }
 
+.subtle-background-inverted{
+    height: 100%;
+    max-height: 300px;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    background-color: #fcf2f4;
+}
+
+.subtle-background-inverted::after{
+    content: "";
+    height: 100%;
+    max-height: 300px;
+    position: absolute;
+    z-index: -1;
+    top: 10rem;
+    left: 0;
+    right: 0;
+    transform: skewY(-7deg);
+    background-color: #fcf2f4;
+}
+
 .rotate-text{
     writing-mode: vertical-rl;
 }
