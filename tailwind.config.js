@@ -25,7 +25,8 @@ module.exports = {
         },
         extend: {
             colors: {
-                "gradio-red": "#C0022F"
+                "gradio-red": "#C0022F",
+                "gradio-white": "#fcf2f4"
             },
             fontFamily: {
                 "poppins": "Poppins, sans-serif"
