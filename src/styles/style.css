@@ -3,8 +3,16 @@
 @tailwind utilities;
 
 .logo-text{
-    @apply text-3xl text-gradio-red;
+    @apply text-3xl;
     letter-spacing: 0.45em;
+}
+
+.logo-red{
+    @apply text-gradio-red;
+}
+
+.logo-white{
+    @apply text-gradio-white;
 }
 
 .top-nav-link{
@@ -40,7 +48,7 @@
     left: 0;
     right: 0;
     top: 20rem;
-    background-color: #fcf2f4;
+    @apply bg-gradio-white;
 }
 
 .subtle-background::before{
@@ -52,7 +60,7 @@
     left: 0;
     right: 0;
     transform: skewY(-7deg);
-    background-color: #fcf2f4;
+    @apply bg-gradio-white;
 }
 
 .subtle-background-inverted{
@@ -62,7 +70,7 @@
     z-index: -1;
     left: 0;
     right: 0;
-    background-color: #fcf2f4;
+    @apply bg-gradio-white;
 }
 
 .subtle-background-inverted::after{
@@ -75,7 +83,7 @@
     left: 0;
     right: 0;
     transform: skewY(-7deg);
-    background-color: #fcf2f4;
+    @apply bg-gradio-white;
 }
 
 .rotate-text{
@@ -90,8 +98,7 @@
 }
 
 .gradio-selection::selection{
-    @apply bg-gradio-red;
-    color: #fcf2f4;
+    @apply bg-gradio-red text-gradio-white;
 }
 
 .faq-prefix{
