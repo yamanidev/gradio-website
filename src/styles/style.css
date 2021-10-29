@@ -93,3 +93,7 @@
     @apply bg-gradio-red;
     color: #fcf2f4;
 }
+
+.faq-prefix{
+    @apply text-gradio-red font-normal;
+}
