@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Logo  */
+
 .logo-text{
     @apply text-3xl;
     letter-spacing: 0.45em;
@@ -15,6 +17,8 @@
     @apply text-gradio-white;
 }
 
+/* Top navbar */
+
 .top-nav-link{
     @apply px-2 font-extralight text-base;
     letter-spacing: 0.45em;
@@ -23,6 +27,8 @@
 #navMenu.active{
     left: 0;
 }
+
+/* Responsive burger menu */
 
 .bar{
     @apply w-7 border-2 border-gradio-red my-1 md:duration-300;
@@ -39,6 +45,8 @@
 #burgerToggle.active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
 }
+
+/* Background shape */
 
 .subtle-background{
     height: 100%;
@@ -99,6 +107,10 @@
 
 .gradio-selection::selection{
     @apply bg-gradio-red text-gradio-white;
+}
+
+.gradio-selection-inverted::selection{
+    @apply bg-gradio-white text-gradio-red;
 }
 
 .faq-prefix{

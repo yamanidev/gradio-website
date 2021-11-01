@@ -830,6 +830,8 @@ video {
 	transition-duration: 300ms;
 }
 
+/* Logo  */
+
 .logo-text {
 	font-size: 1.875rem;
 	line-height: 2.25rem;
@@ -846,6 +848,8 @@ video {
 	color: rgba(252, 242, 244, var(--tw-text-opacity));
 }
 
+/* Top navbar */
+
 .top-nav-link {
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
@@ -858,6 +862,8 @@ video {
 #navMenu.active{
     left: 0;
 }
+
+/* Responsive burger menu */
 
 .bar {
 	margin-top: 0.25rem;
@@ -886,6 +892,8 @@ video {
 #burgerToggle.active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
 }
+
+/* Background shape */
 
 .subtle-background{
     height: 100%;
@@ -962,6 +970,20 @@ video {
 	background-color: rgba(192, 2, 47, var(--tw-bg-opacity));
 	--tw-text-opacity: 1;
 	color: rgba(252, 242, 244, var(--tw-text-opacity));
+}
+
+.gradio-selection-inverted::-moz-selection {
+	--tw-bg-opacity: 1;
+	background-color: rgba(252, 242, 244, var(--tw-bg-opacity));
+	--tw-text-opacity: 1;
+	color: rgba(192, 2, 47, var(--tw-text-opacity));
+}
+
+.gradio-selection-inverted::selection {
+	--tw-bg-opacity: 1;
+	background-color: rgba(252, 242, 244, var(--tw-bg-opacity));
+	--tw-text-opacity: 1;
+	color: rgba(192, 2, 47, var(--tw-text-opacity));
 }
 
 .faq-prefix {
