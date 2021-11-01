@@ -621,35 +621,14 @@ video {
 .bottom-14 {
 	bottom: 3.5rem;
 }
-.left-0 {
-	left: 0px;
-}
-.top-0 {
-	top: 0px;
-}
-.left-2 {
-	left: 0.5rem;
-}
 .right-0 {
 	right: 0px;
-}
-.top-10 {
-	top: 2.5rem;
-}
-.top-8 {
-	top: 2rem;
 }
 .top-7 {
 	top: 1.75rem;
 }
-.top-6 {
-	top: 1.5rem;
-}
 .z-0 {
 	z-index: 0;
-}
-.m-auto {
-	margin: auto;
 }
 .mx-auto {
 	margin-left: auto;
@@ -679,12 +658,6 @@ video {
 }
 .mt-4 {
 	margin-top: 1rem;
-}
-.mr-auto {
-	margin-right: auto;
-}
-.mt-56 {
-	margin-top: 14rem;
 }
 .mt-36 {
 	margin-top: 9rem;
@@ -751,26 +724,14 @@ video {
 .items-center {
 	align-items: center;
 }
-.justify-center {
-	justify-content: center;
-}
 .justify-between {
 	justify-content: space-between;
 }
 .justify-around {
 	justify-content: space-around;
 }
-.justify-evenly {
-	justify-content: space-evenly;
-}
 .self-center {
 	align-self: center;
-}
-.justify-self-end {
-	justify-self: end;
-}
-.justify-self-center {
-	justify-self: center;
 }
 .overflow-hidden {
 	overflow: hidden;
@@ -781,20 +742,9 @@ video {
 .border-2 {
 	border-width: 2px;
 }
-.border {
-	border-width: 1px;
-}
 .border-gradio-red {
 	--tw-border-opacity: 1;
 	border-color: rgba(192, 2, 47, var(--tw-border-opacity));
-}
-.border-green-200 {
-	--tw-border-opacity: 1;
-	border-color: rgba(167, 243, 208, var(--tw-border-opacity));
-}
-.border-blue-900 {
-	--tw-border-opacity: 1;
-	border-color: rgba(30, 58, 138, var(--tw-border-opacity));
 }
 .bg-gradio-red {
 	--tw-bg-opacity: 1;
@@ -810,14 +760,6 @@ video {
 .px-14 {
 	padding-left: 3.5rem;
 	padding-right: 3.5rem;
-}
-.py-4 {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-}
-.py-10 {
-	padding-top: 2.5rem;
-	padding-bottom: 2.5rem;
 }
 .py-9 {
 	padding-top: 2.25rem;
@@ -1028,16 +970,6 @@ video {
 	color: rgba(192, 2, 47, var(--tw-text-opacity));
 }
 
-.hover\:text-\[\#E2D9DB\]:hover {
-	--tw-text-opacity: 1;
-	color: rgba(226, 217, 219, var(--tw-text-opacity));
-}
-
-.hover\:text-\[\#b4adaf\]:hover {
-	--tw-text-opacity: 1;
-	color: rgba(180, 173, 175, var(--tw-text-opacity));
-}
-
 .hover\:text-\[\#cbc3c5\]:hover {
 	--tw-text-opacity: 1;
 	color: rgba(203, 195, 197, var(--tw-text-opacity));
@@ -1123,10 +1055,6 @@ video {
 
 	.sm\:z-10 {
 		z-index: 10;
-	}
-
-	.sm\:mt-5 {
-		margin-top: 1.25rem;
 	}
 
 	.sm\:mt-3 {
