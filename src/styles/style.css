@@ -114,5 +114,5 @@
 }
 
 .faq-prefix{
-    @apply text-gradio-red font-normal;
+    @apply text-gradio-red font-medium;
 }
